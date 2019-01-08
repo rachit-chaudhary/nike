@@ -1,0 +1,347 @@
+@font-face {
+  font-family: 'BebasNeueBold';
+  src: url('../font/bebas_neue/TTF/BebasNeue Bold.ttf');
+}
+@font-face {
+  font-family: 'BebasNeueRegular';
+  src: url('../font/bebas_neue/TTF/BebasNeue Regular.ttf');
+}
+@font-face {
+  font-family: 'BebasNeueLight';
+  src: url('../font/bebas_neue/TTF/BebasNeue Light.ttf');
+}
+body{
+  font-family: 'BebasNeueRegular';
+  margin: 0px;
+}
+a{
+  text-decoration: none;
+  color: #000;
+}
+.navbar{
+  margin: 20px 0px 0px  0px;
+
+  width: 100%;
+  border-top: 1px solid #999999;
+  border-bottom: 1px solid #999999;
+  background-color: #fff;
+}
+.navbar-content{
+  margin: 20px auto;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: space-around;
+}
+.logo{
+  display: flex;
+  align-self: center;
+}
+
+/* LOGO STYLE ENDS HERE */
+
+.nav-links{
+  display: flex;
+  justify-content: center;
+  font-family: 'BebasNeueBold';
+  letter-spacing: 1px;
+}
+.nav-links ul{
+  display: flex;
+  flex-wrap: wrap;
+}
+.nav-links ul li{
+  margin: 0px 25px;
+  list-style: none;
+}
+
+ /* NAV BAR STYLE ENDS HERE*/
+
+.header-search{
+  width: 120px;
+}
+.search-bar{
+  display: flex;
+  align-self: center;
+  align-items: center;
+  position: relative;
+}
+
+.search-bar-box{
+  padding-left: 35px;
+  width: 75px;
+  height: 30px;
+  position: relative;
+  font-family: 'BebasNeueRegular';
+  letter-spacing: 1px;
+  word-spacing: 5px;
+  transition: 0.9s ease;
+}
+.search-bar-box:focus{
+  width:100%;
+  border: 1px solid #333333;
+}
+.search-bar-box:focus .search-icon{
+  margin-left: 52px;
+}
+.search-icon{
+  margin-left: 12px;
+  width: 15px;
+  position: absolute;
+  pointer-events: none;
+  z-index: 2;
+  transition: 0.6s ease;
+}
+.search-bar-box::placeholder{
+  font-family: 'BebasNeueRegular';
+  letter-spacing: 2px;
+  word-spacing: 5px;
+  color: rgba(0, 0, 20, 0.5);
+}
+
+
+/* SEARCH BAR STYLE ENDS HERE */
+
+
+.hero-image{
+  width: 100%;
+}
+.background-banner{
+  width: 100%;
+  height: 72vh;
+  background-image: url(../images/HP_AJIII_Desktop.jpg);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+.container{
+  max-width: 1366px;
+  margin: 0px auto;
+}
+.offer-slideshow{
+  width: 100%;
+  height: 75px;
+  display: flex;
+  justify-content: center;
+  background-color: #f6f6f6;
+}
+.arrow{
+  display: flex;
+  align-self: center;
+  cursor: pointer;
+}
+.slide{
+  width: 720px;
+  height: 75px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.slide h4{
+  margin: 0px;
+  font-size: 1.25em;
+  font-family: 'BebasNeueBold';
+}
+
+.banner-info{
+  margin: 50px 0px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.banner-info h3{
+  margin: 5px;
+  font-family: 'BebasNeueBold';
+  font-size: 2em;
+}
+.banner-para{
+  max-width: 500px;
+}
+.banner-para p{
+  margin: 5px;
+  text-align: center;
+  font-family: 'BebasNeueRegular'
+  font-size: 25px;
+  letter-spacing: 2px;
+  word-spacing: 3px;
+}
+.background-video-file{
+  width: 100%;
+}
+.background-banner-2{
+  width: 100%;
+  height: 72vh;
+  background-image: url(../images/0823_HP_Bra_Guide_DT.jpg);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+.banner-button{
+  margin: 25px 0px;
+
+}
+.banner-button button{
+  width: 100px;
+  height: 45px;
+  margin: 0px 12px;
+  border: none;
+  font-family: 'BebasNeueRegular';
+  font-size: 1em;
+  letter-spacing: .5px;
+  border-radius: 2spx;
+  color: #fff;
+  background-color: #000;
+}
+.background-banner-3{
+  width: 100%;
+  height: 72vh;
+  background-image: url(../images/0904_HP_XCAT_Bags_DT.jpg);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+.background-banner-4{
+  padding-top: 55px;
+  width: 100%;
+  height: 30vh;
+  background-image: url(../images/EVERGREEN_HP_DESK_GBL_EMAIL_SIGNUP.jpg);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+.banner-info-signup{
+  margin: 12px 0px;
+  height: 30vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.banner-para-signup{
+  max-width: 500px;
+}
+.banner-info-signup h3{
+  margin: 5px 0px;
+  font-family: 'BebasNeueBold';
+  font-size: 2em;
+}
+.banner-para-signup p{
+  margin: 15px;
+  text-align: center;
+  font-family: 'BebasNeueRegular'
+  font-size: 25px;
+  letter-spacing: 2px;
+  word-spacing: 3px;
+}
+.signup-link:hover{
+  border-bottom: 1px solid #000;
+}
+
+
+/* BODY CONTENT ENDS HERE */
+
+
+.footer{
+  padding: 50px 0px 0px 0px;
+  width: 100%;
+  background-color: #1a1a1a;
+}
+.footer-center-div{
+  margin: 0px auto;
+  margin-bottom: 20px;
+  max-width: 1080px;
+  height: 230px;
+  display: flex;
+}
+.left-content{
+  width: 50%;
+  display: flex;
+}
+.main-links{
+  margin-right: 30px;
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+}
+.footer-center-div a{
+  margin: 10px;
+  font-size: 1em;
+  color: #cccccc;
+}
+.child-links{
+  display: flex;
+  flex-direction: column;
+  font-size: 0.8em;
+  letter-spacing: 1px;
+}
+.child-links a{
+  color: #4d4d4d;
+  transition: 0.5s ease;
+}
+.child-links a:hover{
+  color: #999999;
+}
+.gethelp-links{
+  margin-right: 15px;
+  display: flex;
+  flex-direction: column;
+}
+.right-content{
+  width: 50%;
+}
+.about-nike{
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+}
+.social-links{
+  height: 23px;
+  display: flex;
+  justify-content: flex-end;
+  flex-wrap: wrap;
+}
+.social-media{
+  width: 23px;
+}
+.social-media:hover{
+  color: #fff;
+}
+.footer-info{
+  max-width: 1080px;
+  margin: 0px auto;
+  display: flex;
+}
+hr{
+  width: 1080px;
+  border: 0px;
+  height: 1px;
+  background-color: #333;
+}
+.country-flag{
+  display: flex;
+}
+.country-flag-image{
+  margin: 0px 15px;
+  width: 20px;
+}
+.brand-info{
+  display: flex;
+  align-items: center;
+}
+.brand-info p{
+  word-spacing: 3px;
+  color: #4d4d4d;
+}
+.right-content ul{
+  display: flex;
+  justify-content: flex-end;
+}
+.right-content ul li{
+  margin: 0px 12px;
+  list-style: none;
+}
+.right-content ul li a{
+  color: #4d4d4d;
+}
