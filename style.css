@@ -1,14 +1,14 @@
 @font-face {
   font-family: 'BebasNeueBold';
-  src: url('../font/bebas_neue/TTF/BebasNeue Bold.ttf');
+  src: url('BebasNeue Bold.ttf');
 }
 @font-face {
   font-family: 'BebasNeueRegular';
-  src: url('../font/bebas_neue/TTF/BebasNeue Regular.ttf');
+  src: url('BebasNeue Regular.ttf');
 }
 @font-face {
   font-family: 'BebasNeueLight';
-  src: url('../font/bebas_neue/TTF/BebasNeue Light.ttf');
+  src: url('BebasNeue Light.ttf');
 }
 body{
   font-family: 'BebasNeueRegular';
@@ -109,7 +109,7 @@ a{
 .background-banner{
   width: 100%;
   height: 72vh;
-  background-image: url(../images/HP_AJIII_Desktop.jpg);
+  background-image: url(HP_AJIII_Desktop.jpg);
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
@@ -162,7 +162,7 @@ a{
 .banner-para p{
   margin: 5px;
   text-align: center;
-  font-family: 'BebasNeueRegular'
+  font-family: 'BebasNeueRegular';
   font-size: 25px;
   letter-spacing: 2px;
   word-spacing: 3px;
@@ -173,7 +173,7 @@ a{
 .background-banner-2{
   width: 100%;
   height: 72vh;
-  background-image: url(../images/0823_HP_Bra_Guide_DT.jpg);
+  background-image: url(0823_HP_Bra_Guide_DT.jpg);
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
@@ -197,7 +197,7 @@ a{
 .background-banner-3{
   width: 100%;
   height: 72vh;
-  background-image: url(../images/0904_HP_XCAT_Bags_DT.jpg);
+  background-image: url(0904_HP_XCAT_Bags_DT.jpg);
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
@@ -206,7 +206,7 @@ a{
   padding-top: 55px;
   width: 100%;
   height: 30vh;
-  background-image: url(../images/EVERGREEN_HP_DESK_GBL_EMAIL_SIGNUP.jpg);
+  background-image: url(EVERGREEN_HP_DESK_GBL_EMAIL_SIGNUP.jpg);
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
@@ -230,7 +230,7 @@ a{
 .banner-para-signup p{
   margin: 15px;
   text-align: center;
-  font-family: 'BebasNeueRegular'
+  font-family: 'BebasNeueRegular';
   font-size: 25px;
   letter-spacing: 2px;
   word-spacing: 3px;
