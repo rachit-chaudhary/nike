@@ -190,6 +190,7 @@ button{
   height: 45px;
   margin: 0px 12px;
   border: none;
+  cursor: pointer;
   font-family: 'BebasNeueRegular';
   font-size: 1em;
   letter-spacing: .5px;
